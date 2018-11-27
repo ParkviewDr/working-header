@@ -1,0 +1,83 @@
+
+
+
+
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package MusicWithClaire
+ */
+
+?>
+
+    
+    
+    
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music With Claire</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Srisakdi" rel="stylesheet"> 
+<style>
+
+
+        
+        nav-brand:hover nav-link:hover{
+            background color:black;
+           font-family: 'Slabo 27px', serif;
+           color:black;
+        }
+
+
+</style>
+<body>
+
+  
+       <nav class="navbar navbar-expand-md bg-light navbar-light">
+  <a class="navbar-link" href="https://musicwithclaire.com/">Music With Claire</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://musicwithclaire.com/contact/">Contact<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Additional Resources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://www.taubmanseminar.com/">The Dorothy Taubman Seminar</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://www.pfmc-music.org/">Pennsylvania Federation of Music Clubs</a>
+        </div>
+     </li>
+    </ul>
+  
+  
+</nav>
+
+</div>
+</body>
+</html>
+
+
+
+
+	<div id="content" class="site-content">
